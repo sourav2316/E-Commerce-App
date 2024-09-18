@@ -1,0 +1,49 @@
+.container {
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 0.1px solid black;
+  /* box-shadow: 1px 1px 6px; */
+}
+
+.mid-cont {
+  display: flex;
+  gap: 40px;
+}
+
+.link {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  border-bottom: 1px solid black;
+}
+
+.right-cont {
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  font-weight: 400;
+}
+
+.input-box {
+  font-size: 17px;
+  padding: 10px;
+  width: 290px;
+  padding-left: 20px;
+  padding-right: 40px;
+  border: none;
+  outline: none;
+  background-color: rgb(240, 240, 240);
+  border-radius: 10px;
+}
+
+.search {
+  position: relative;
+  top: 7px;
+  right: 35px;
+}
